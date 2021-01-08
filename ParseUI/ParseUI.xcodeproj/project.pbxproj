@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376B1E0425A8CC2E00B57A0E /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B1E0225A8CC2E00B57A0E /* FBSDKCoreKit.xcframework */; };
+		376B1E0525A8CC2E00B57A0E /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B1E0325A8CC2E00B57A0E /* FBSDKLoginKit.xcframework */; };
+		376B1E0D25A8CC6F00B57A0E /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B1E0B25A8CC6F00B57A0E /* FBSDKCoreKit.xcframework */; };
+		376B1E0E25A8CC6F00B57A0E /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376B1E0C25A8CC6F00B57A0E /* FBSDKLoginKit.xcframework */; };
 		377EB54B25A8B80400F8DCD0 /* Bolts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377EB54A25A8B80400F8DCD0 /* Bolts.xcframework */; };
 		377EB54C25A8B80400F8DCD0 /* Bolts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377EB54A25A8B80400F8DCD0 /* Bolts.xcframework */; };
 		4A0ECBE6200D8C0200BA84A3 /* PFTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A944C200D0226005D8F4B /* PFTextButton.m */; };
@@ -67,8 +71,6 @@
 		4A0ECCB2200DA92700BA84A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC73200D993000BA84A3 /* UIKit.framework */; };
 		4A1350D12027F6AB000F5FD5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; };
 		4A1350D22027F6AB000F5FD5 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E43A2027CC330066DE1A /* ParseFacebookUtilsV4.framework */; };
-		4A1351E1202818EF000F5FD5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1351DF202818EE000F5FD5 /* FBSDKLoginKit.framework */; };
-		4A1351E2202818EF000F5FD5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1351E0202818EE000F5FD5 /* FBSDKCoreKit.framework */; };
 		4A9A94A0200D03AA005D8F4B /* PFResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A9424200D0226005D8F4B /* PFResources.m */; };
 		4A9A94A1200D03AA005D8F4B /* PFResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A9425200D0226005D8F4B /* PFResources.h */; };
 		4A9A94A2200D03B6005D8F4B /* PFProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A9428200D0226005D8F4B /* PFProductTableViewController.m */; };
@@ -124,8 +126,6 @@
 		4A9A94D4200D03C8005D8F4B /* PFLogInView_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A9465200D0226005D8F4B /* PFLogInView_Private.h */; };
 		4A9A94D5200D0413005D8F4B /* ParseUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A947B200D0226005D8F4B /* ParseUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A9A94D6200D0413005D8F4B /* ParseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A947C200D0226005D8F4B /* ParseUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A9A94E2200D0574005D8F4B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E1200D056A005D8F4B /* FBSDKCoreKit.framework */; };
-		4A9A94E3200D0574005D8F4B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E0200D056A005D8F4B /* FBSDKLoginKit.framework */; };
 		4A9A94E5200D0598005D8F4B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E4200D0598005D8F4B /* libsqlite3.tbd */; };
 		4A9A94E7200D05A5005D8F4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E6200D05A5005D8F4B /* SystemConfiguration.framework */; };
 		4A9A94E9200D05AA005D8F4B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E8200D05AA005D8F4B /* Social.framework */; };
@@ -440,6 +440,10 @@
 
 /* Begin PBXFileReference section */
 		06A1EF631BB6799700BA55EC /* ParseUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		376B1E0225A8CC2E00B57A0E /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		376B1E0325A8CC2E00B57A0E /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		376B1E0B25A8CC6F00B57A0E /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		376B1E0C25A8CC6F00B57A0E /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
 		377EB54A25A8B80400F8DCD0 /* Bolts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Bolts.xcframework; path = ../Carthage/Build/Bolts.xcframework; sourceTree = "<group>"; };
 		40AC79CA24E70415009D834A /* apple_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple_icon@3x.png"; sourceTree = "<group>"; };
 		40AC79CB24E70416009D834A /* apple_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple_icon@2x.png"; sourceTree = "<group>"; };
@@ -450,8 +454,6 @@
 		4A0ECC7D200D997400BA84A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4A0ECC8F200D9D2700BA84A3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4A0ECC92200D9D3900BA84A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		4A1351DF202818EE000F5FD5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		4A1351E0202818EE000F5FD5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		4A51E41D2027CC2D0066DE1A /* ParseTwitterUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ParseTwitterUtils.xcodeproj; path = ../ParseTwitterUtils/ParseTwitterUtils.xcodeproj; sourceTree = "<group>"; };
 		4A51E42C2027CC330066DE1A /* ParseFacebookUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ParseFacebookUtils.xcodeproj; path = ../ParseFacebookUtils/ParseFacebookUtils.xcodeproj; sourceTree = "<group>"; };
 		4A51E44B2027DC000066DE1A /* Parse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Parse.xcodeproj; path = ../Parse/Parse.xcodeproj; sourceTree = "<group>"; };
@@ -545,8 +547,6 @@
 		4A9A9491200D02CE005D8F4B /* ParseUI-iOS-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ParseUI-iOS-Dynamic.xcconfig"; sourceTree = "<group>"; };
 		4A9A9497200D0329005D8F4B /* ParseUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A94DA200D04DE005D8F4B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A9A94E0200D056A005D8F4B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Vendor/FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
-		4A9A94E1200D056A005D8F4B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Vendor/FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
 		4A9A94E4200D0598005D8F4B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		4A9A94E6200D05A5005D8F4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4A9A94E8200D05AA005D8F4B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -652,16 +652,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A1351E2202818EF000F5FD5 /* FBSDKCoreKit.framework in Frameworks */,
+				376B1E0525A8CC2E00B57A0E /* FBSDKLoginKit.xcframework in Frameworks */,
 				BC8C2923246B1873000AEE3F /* ParseUI.framework in Frameworks */,
 				4A1350D12027F6AB000F5FD5 /* Parse.framework in Frameworks */,
 				4A1350D22027F6AB000F5FD5 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				701070F6258D75DD00187034 /* ParseTwitterUtils.framework in Frameworks */,
+				376B1E0425A8CC2E00B57A0E /* FBSDKCoreKit.xcframework in Frameworks */,
 				4A0ECCB2200DA92700BA84A3 /* UIKit.framework in Frameworks */,
 				4A9A94F7200D125A005D8F4B /* AudioToolbox.framework in Frameworks */,
 				4A9A94F5200D1252005D8F4B /* SystemConfiguration.framework in Frameworks */,
 				4A9A94F4200D1248005D8F4B /* Social.framework in Frameworks */,
-				4A1351E1202818EF000F5FD5 /* FBSDKLoginKit.framework in Frameworks */,
 				4A9A94F3200D1241005D8F4B /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,13 +670,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376B1E0D25A8CC6F00B57A0E /* FBSDKCoreKit.xcframework in Frameworks */,
+				376B1E0E25A8CC6F00B57A0E /* FBSDKLoginKit.xcframework in Frameworks */,
 				4A9A94E9200D05AA005D8F4B /* Social.framework in Frameworks */,
 				4A9A94E7200D05A5005D8F4B /* SystemConfiguration.framework in Frameworks */,
 				4A9A94E5200D0598005D8F4B /* libsqlite3.tbd in Frameworks */,
 				BC0632E023ABCC8F0089096D /* AuthenticationServices.framework in Frameworks */,
-				4A9A94E2200D0574005D8F4B /* FBSDKCoreKit.framework in Frameworks */,
 				BC488EA0246B196800947E3C /* ParseUI.framework in Frameworks */,
-				4A9A94E3200D0574005D8F4B /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,8 +740,8 @@
 		4A1351DE202818D9000F5FD5 /* FBSDK */ = {
 			isa = PBXGroup;
 			children = (
-				4A1351E0202818EE000F5FD5 /* FBSDKCoreKit.framework */,
-				4A1351DF202818EE000F5FD5 /* FBSDKLoginKit.framework */,
+				376B1E0225A8CC2E00B57A0E /* FBSDKCoreKit.xcframework */,
+				376B1E0325A8CC2E00B57A0E /* FBSDKLoginKit.xcframework */,
 			);
 			name = FBSDK;
 			sourceTree = "<group>";
@@ -1074,8 +1074,8 @@
 		4A9A94DF200D055D005D8F4B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A94E1200D056A005D8F4B /* FBSDKCoreKit.framework */,
-				4A9A94E0200D056A005D8F4B /* FBSDKLoginKit.framework */,
+				376B1E0B25A8CC6F00B57A0E /* FBSDKCoreKit.xcframework */,
+				376B1E0C25A8CC6F00B57A0E /* FBSDKLoginKit.xcframework */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
