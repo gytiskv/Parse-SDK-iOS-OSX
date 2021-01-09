@@ -16,9 +16,79 @@
    <Group
       location = "container:"
       name = "Vendor">
-      <FileRef
-         location = "group:Carthage/Checkouts/OCMock/Source/OCMock.xcodeproj">
-      </FileRef>
+      <Group
+         location = "group:Vendor/xctoolchain"
+         name = "xctoolchain">
+         <Group
+            location = "group:Configurations"
+            name = "Configurations">
+            <FileRef
+               location = "group:Common.xcconfig">
+            </FileRef>
+            <Group
+               location = "group:Platform"
+               name = "Platform">
+               <FileRef
+                  location = "group:macOS.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:tvOS.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:iOS.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:watchOS.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Product"
+               name = "Product">
+               <FileRef
+                  location = "group:Application.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:DynamicFramework.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:StaticFramework.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:LogicTests.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Project"
+               name = "Project">
+               <FileRef
+                  location = "group:Debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Release.xcconfig">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Warnings.xcconfig">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Scripts"
+            name = "Scripts">
+            <Group
+               location = "group:xctask"
+               name = "xctask">
+               <FileRef
+                  location = "group:build_task.rb">
+               </FileRef>
+               <FileRef
+                  location = "group:build_framework_task.rb">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
    </Group>
    <Group
       location = "container:"
